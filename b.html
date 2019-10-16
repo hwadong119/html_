@@ -14,6 +14,14 @@
       img[src$=gif] {border: 3px solid blue;}
 
       #header h1 { color: red; }
+      #section h1 { color: orange; }
+
+      #header2 > h1 { color: red; }
+      #section2 > h1 { color: orange; }
+
+      .action:hover {color: blue;}
+      .action:active {color: yellow;}
+
     </style>
   </head>
   <body>
@@ -40,5 +48,25 @@
       <h1>Navigation</h1>
     </div>
   </div>
+
+  <div id="section">
+    <h1 class = "title">Lorem ipsum</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <hr>
+  <h1 class = "title">CSS 자손 선택자</h1>
+  <hr>
+  <div id="header2">
+    <h1 class = "title2">Lorem ipsum</h1>
+    <div id="nav2">
+      <h1>Navigation</h1>
+    </div>
+  </div>
+  <div id="section2">
+    <h1 class = "title2">Lorem ipsum</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <hr>
+  <h1 class = "action">User Action Selection</h1>
   </body>
 </html>
